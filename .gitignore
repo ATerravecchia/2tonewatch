@@ -13,6 +13,7 @@
 
 # Temporary files
 \#auto_saved_files\#/
+\#auto_saved_files#
 *.tmp
 *.lck
 

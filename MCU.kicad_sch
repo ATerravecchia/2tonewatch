@@ -1284,6 +1284,26 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 87.63) (xy 185.42 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40900d1e-8773-487f-aaad-30a1593bb551")
+	)
+	(wire
+		(pts
+			(xy 168.91 85.09) (xy 185.42 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5074448f-694b-4134-9949-3a8c397f5eff")
+	)
+	(wire
+		(pts
 			(xy 143.51 130.81) (xy 143.51 137.16)
 		)
 		(stroke
@@ -1314,16 +1334,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 87.63) (xy 182.88 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba0f9d7f-4e6e-4862-bc37-a6acd50a59db")
-	)
-	(wire
-		(pts
 			(xy 146.05 137.16) (xy 146.05 139.7)
 		)
 		(stroke
@@ -1342,15 +1352,25 @@
 		)
 		(uuid "e464814d-c89e-445b-8d99-d765e12acd94")
 	)
-	(wire
-		(pts
-			(xy 168.91 90.17) (xy 182.88 90.17)
+	(label "USB_D-"
+		(at 176.53 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "597322de-c562-4171-82b8-d7d06179ea86")
+	)
+	(label "USB_D+"
+		(at 176.53 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(uuid "f001badd-6255-4748-9ddf-ee0bf78fe62f")
+		(uuid "b1d7ffb9-4e72-4908-ba4d-f22cba8a2610")
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32WB:STM32WB55CGUx")
@@ -1360,7 +1380,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "20dcef79-b5e2-426e-9308-31598062e8d1")
 		(property "Reference" "U5"
 			(at 150.7333 130.81 0)

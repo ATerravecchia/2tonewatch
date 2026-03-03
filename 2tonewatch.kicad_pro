@@ -420,6 +420,10 @@
     [
       "50aa898a-4cd9-4f6c-a569-964480767df5",
       "Power"
+    ],
+    [
+      "d1e239c8-1e89-4f3e-9b45-1354c48c8e66",
+      "eink-connector"
     ]
   ],
   "text_variables": {}
