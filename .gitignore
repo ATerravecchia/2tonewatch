@@ -1,0 +1,36 @@
+# KiCAD project files
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_sch.lck
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+*.[0-9]
+*.[0-9][0-9]
+
+# Temporary files
+\#auto_saved_files\#/
+*.tmp
+*.lck
+
+# KiCAD 6.0+ cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+.directory
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Build outputs
+gerbers/
+outputs/
+*.zip
