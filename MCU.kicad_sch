@@ -1274,6 +1274,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 64.77) (xy 185.42 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079fafbd-a623-434d-aa93-b5683b0599de")
+	)
+	(wire
+		(pts
 			(xy 143.51 137.16) (xy 146.05 137.16)
 		)
 		(stroke
@@ -1281,6 +1291,16 @@
 			(type default)
 		)
 		(uuid "07e54644-2bb7-464e-a32b-2aa930685ba0")
+	)
+	(wire
+		(pts
+			(xy 168.91 69.85) (xy 185.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b6ed23-c09d-432b-9a54-c666fecafe0b")
 	)
 	(wire
 		(pts
@@ -1304,6 +1324,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 67.31) (xy 185.42 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f156ba-983e-45e5-a87a-810aafc85046")
+	)
+	(wire
+		(pts
 			(xy 143.51 130.81) (xy 143.51 137.16)
 		)
 		(stroke
@@ -1324,6 +1354,26 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 62.23) (xy 185.42 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996f82e9-779e-4c07-bb29-d5ba5f1c7406")
+	)
+	(wire
+		(pts
+			(xy 168.91 59.69) (xy 185.42 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf01b15-9345-4dcf-be67-6899d51867c4")
+	)
+	(wire
+		(pts
 			(xy 146.05 137.16) (xy 148.59 137.16)
 		)
 		(stroke
@@ -1331,6 +1381,16 @@
 			(type default)
 		)
 		(uuid "acdc4e5c-afc1-40cc-b3a7-fc263ca457cd")
+	)
+	(wire
+		(pts
+			(xy 168.91 74.93) (xy 185.42 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6de76f-69b0-47f6-99aa-1d282f759176")
 	)
 	(wire
 		(pts
@@ -1352,6 +1412,36 @@
 		)
 		(uuid "e464814d-c89e-445b-8d99-d765e12acd94")
 	)
+	(label "CS"
+		(at 175.26 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ff3399e-ea3d-4dba-b874-b955b17d10b4")
+	)
+	(label "D{slash}C"
+		(at 175.26 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39be2259-229a-4c35-a4ca-839d36869905")
+	)
+	(label "SPI1_MOSI"
+		(at 175.26 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fbf6461-f48c-4b23-8bb6-4d799ec3a6cc")
+	)
 	(label "USB_D-"
 		(at 176.53 85.09 0)
 		(effects
@@ -1362,6 +1452,16 @@
 		)
 		(uuid "597322de-c562-4171-82b8-d7d06179ea86")
 	)
+	(label "~{RES}"
+		(at 175.26 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7dba5f30-6bc4-4f34-962d-9402bcc7aec6")
+	)
 	(label "USB_D+"
 		(at 176.53 87.63 0)
 		(effects
@@ -1371,6 +1471,26 @@
 			(justify left bottom)
 		)
 		(uuid "b1d7ffb9-4e72-4908-ba4d-f22cba8a2610")
+	)
+	(label "BUSY"
+		(at 175.26 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5ded21c-478e-4ae1-9ccb-c8816535debd")
+	)
+	(label "SPI1_SCK"
+		(at 175.26 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2668d5c-0e7e-44c5-94a5-0d99fa220392")
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32WB:STM32WB55CGUx")
