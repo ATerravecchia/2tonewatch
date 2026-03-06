@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at -2.54 834.39)
+		(size 303.53 200.66)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4af52688-bac3-4b0c-b181-6834dd06dad9")
+		(property "Sheetname" "button_switches"
+			(at -2.54 833.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button_switches.kicad_sch"
+			(at -2.54 1035.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "2tonewatch"
+				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 0 217.17)
 		(size 297.18 179.07)
 		(exclude_from_sim no)
