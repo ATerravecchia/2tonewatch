@@ -3721,11 +3721,11 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.36K"
-			(at 89.662 45.72 90)
+		(property "Value" "5K36"
+			(at 89.154 48.26 90)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -4202,10 +4202,10 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 90.678 55.88 90)
+			(at 90.424 58.166 90)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -4925,7 +4925,7 @@
 		(dnp no)
 		(uuid "bc7f794d-ffa8-4392-b98f-4e8be1b11175")
 		(property "Reference" "R6"
-			(at 52.07 88.646 90)
+			(at 56.134 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,10 +4934,10 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 52.324 86.36 90)
+			(at 51.562 88.646 90)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -5427,7 +5427,7 @@
 		(dnp no)
 		(uuid "e73008da-41c8-4ed1-9412-c9ed1890c0ff")
 		(property "Reference" "R5"
-			(at 52.07 81.788 90)
+			(at 56.134 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,10 +5436,10 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 52.324 83.82 90)
+			(at 51.308 81.788 90)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
