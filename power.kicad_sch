@@ -2547,6 +2547,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Fuel Gauge IC"
 		(exclude_from_sim no)
@@ -2716,6 +2817,12 @@
 		(color 0 0 0 0)
 		(uuid "fcffa318-a62b-49d9-b953-5d1ea6657331")
 	)
+	(junction
+		(at 63.5 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feaf7eb1-94fe-434c-a1b3-d42a82010f89")
+	)
 	(no_connect
 		(at 50.8 129.54)
 		(uuid "0963c8ea-e93a-473f-950b-e574fc674abc")
@@ -2781,6 +2888,16 @@
 			(type default)
 		)
 		(uuid "1b78ec75-1334-460c-8271-f3e2cbe2a891")
+	)
+	(wire
+		(pts
+			(xy 63.5 97.79) (xy 63.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209a953f-8bc0-43da-ac2e-2bf2a72eb537")
 	)
 	(wire
 		(pts
@@ -2974,7 +3091,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 99.06) (xy 73.66 99.06)
+			(xy 50.8 99.06) (xy 63.5 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3071,6 +3188,16 @@
 			(type default)
 		)
 		(uuid "71e1741e-3d21-44d0-8461-480177db7abc")
+	)
+	(wire
+		(pts
+			(xy 63.5 99.06) (xy 73.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a59bc63-0da9-412c-b131-065ecb0d112f")
 	)
 	(wire
 		(pts
@@ -3541,16 +3668,6 @@
 			(justify left bottom)
 		)
 		(uuid "12ff0e8c-4d78-4561-8d5a-acb7dafeb5c3")
-	)
-	(label "-VBATT"
-		(at 172.72 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6f24c9de-3af8-4fa3-8a86-03a5bb93bb0c")
 	)
 	(label "USB_DM"
 		(at 60.96 116.84 0)
@@ -5472,6 +5589,71 @@
 			(project ""
 				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/50aa898a-4cd9-4f6c-a569-964480767df5"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 63.5 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d37a2d36-c40e-496d-9ab1-1f6fa564cfde")
+		(property "Reference" "#FLG01"
+			(at 63.5 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 63.5 93.98 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 63.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0b65e9a-5cca-4a8c-87c3-a295fea642c8")
+		)
+		(instances
+			(project ""
+				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/50aa898a-4cd9-4f6c-a569-964480767df5"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
