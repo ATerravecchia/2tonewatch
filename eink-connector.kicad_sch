@@ -5,15 +5,15 @@
 	(uuid "e3e66f43-977d-448a-aa20-e093ee894c5b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x24"
+		(symbol "Connector_Generic:Conn_01x24_epaper_GDEM0122T61"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J2"
-				(at 0.508 -33.782 0)
+			(property "Reference" "J4"
+				(at 10.16 0.0001 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -22,7 +22,7 @@
 				)
 			)
 			(property "Value" "FFC-FPC_1X24_PIN"
-				(at 0.254 -36.322 0)
+				(at 10.16 -2.5399 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -75,7 +75,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x24_1_1"
+			(symbol "Conn_01x24_epaper_GDEM0122T61_1_1"
 				(rectangle
 					(start -1.27 29.21)
 					(end 8.89 -31.75)
@@ -4048,7 +4048,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x24")
+		(lib_id "Connector_Generic:Conn_01x24_epaper_GDEM0122T61")
 		(at 203.2 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
