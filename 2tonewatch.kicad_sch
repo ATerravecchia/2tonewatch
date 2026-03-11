@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "29eb74dc-e91c-4cc5-ad9f-7f8caf36d690")
 	(paper "A4")
+	(title_block
+		(title "E-Ink Display BLE Watch ")
+	)
 	(lib_symbols)
 	(sheet
 		(at -2.54 834.39)

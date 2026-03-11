@@ -3572,6 +3572,12 @@
 		(uuid "28040696-c2c8-4b28-bc27-c21810943e14")
 	)
 	(junction
+		(at 36.83 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "292d647d-874b-496d-8025-8dc0a7cb899f")
+	)
+	(junction
 		(at 78.74 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3632,18 +3638,6 @@
 		(uuid "8897e15a-7cee-4d84-85a6-94dbeec5b6d1")
 	)
 	(junction
-		(at 101.6 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9041ffd6-0ea0-49a4-9ae5-8a4e2bdd747a")
-	)
-	(junction
-		(at 34.29 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90d1ccf0-442d-4d48-ac67-fbfde6f5de4c")
-	)
-	(junction
 		(at 133.35 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3698,6 +3692,12 @@
 		(uuid "c4a8fe62-3e07-4e57-bca3-cb180f9fa751")
 	)
 	(junction
+		(at 101.6 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5775dee-9045-4839-8ca7-e136e7ac6426")
+	)
+	(junction
 		(at 138.43 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3708,12 +3708,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db6ab3f2-50ed-4d42-99ec-334d81b0ec26")
-	)
-	(junction
-		(at 45.72 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2a70f4a-aaf4-4516-aaba-590ea45841b6")
 	)
 	(junction
 		(at 69.85 67.31)
@@ -4637,23 +4631,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 21.59) (xy 45.72 21.59)
+			(xy 36.83 31.75) (xy 40.64 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c337f97-b2b7-4887-88b3-4ce1f9ea4fd3")
-	)
-	(wire
-		(pts
-			(xy 69.85 69.85) (xy 115.57 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ffa9593-a304-4bfa-83c1-0a999932fc1f")
+		(uuid "8af94d40-fa8a-4dbe-af38-a0a000e1d9f3")
 	)
 	(wire
 		(pts
@@ -4667,17 +4651,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 67.31) (xy 115.57 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92bb568d-ff34-41df-80cc-1d5f232d8a71")
-	)
-	(wire
-		(pts
-			(xy 45.72 21.59) (xy 53.34 21.59)
+			(xy 40.64 21.59) (xy 53.34 21.59)
 		)
 		(stroke
 			(width 0)
@@ -4754,6 +4728,16 @@
 			(type default)
 		)
 		(uuid "9d852455-a274-4246-9eb5-48a2d63b1c8a")
+	)
+	(wire
+		(pts
+			(xy 101.6 67.31) (xy 115.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e71a59e-f942-4029-8fda-24b4a77cb300")
 	)
 	(wire
 		(pts
@@ -4847,7 +4831,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 31.75) (xy 34.29 31.75)
+			(xy 27.94 31.75) (xy 36.83 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4954,16 +4938,6 @@
 			(type default)
 		)
 		(uuid "b846fbe2-9a79-422b-ab37-e05b226036aa")
-	)
-	(wire
-		(pts
-			(xy 34.29 31.75) (xy 40.64 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9fc9c2a-c4b2-4028-89ca-00d6d58a158b")
 	)
 	(wire
 		(pts
@@ -5254,6 +5228,16 @@
 			(type default)
 		)
 		(uuid "e2b16820-eac2-4038-a117-bc5c7c4f2914")
+	)
+	(wire
+		(pts
+			(xy 69.85 69.85) (xy 115.57 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2efc8df-c721-4179-8c99-50f001b737a9")
 	)
 	(wire
 		(pts
@@ -7545,71 +7529,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 45.72 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50e15c3c-e368-4ed8-a5b0-0ce29362027a")
-		(property "Reference" "#FLG02"
-			(at 45.72 19.685 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 45.72 17.78 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 45.72 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49968ead-014e-45af-b245-ffab24607c97")
-		)
-		(instances
-			(project "2tonewatch"
-				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/d7e41c0d-036e-4359-ac6b-2548c136f4e0"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 105.41 172.72 0)
 		(mirror y)
@@ -7980,7 +7899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 107.95 90.17 0)
 			(effects
 				(font
@@ -8164,7 +8083,7 @@
 		(dnp no)
 		(uuid "7c78d6f3-7525-4513-bab5-fc89668b383d")
 		(property "Reference" "C14"
-			(at 89.408 115.57 0)
+			(at 89.662 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8172,8 +8091,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 95.758 115.316 0)
+		(property "Value" "10pF"
+			(at 88.392 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8716,7 +8635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 163.83 67.31 0)
 			(effects
 				(font
@@ -8884,6 +8803,72 @@
 			(project "2tonewatch"
 				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/d7e41c0d-036e-4359-ac6b-2548c136f4e0"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 101.6 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b54dceb7-2b5d-462b-8e56-d7130b694ebc")
+		(property "Reference" "#FLG03"
+			(at 101.6 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fce0a6b8-4cc1-4028-8423-1e7385bf98fd")
+		)
+		(instances
+			(project "2tonewatch"
+				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/d7e41c0d-036e-4359-ac6b-2548c136f4e0"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -9346,7 +9331,7 @@
 		(dnp no)
 		(uuid "c53f37ea-6b68-467e-8e88-43497afae3b7")
 		(property "Reference" "C15"
-			(at 102.362 115.316 0)
+			(at 107.188 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9354,8 +9339,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 108.458 115.316 0)
+		(property "Value" "10pF"
+			(at 107.442 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9473,7 +9458,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 34.29 31.75 180)
+		(at 36.83 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9481,7 +9466,7 @@
 		(dnp no)
 		(uuid "cbba6156-0985-4b2c-8553-20e415c23485")
 		(property "Reference" "#FLG04"
-			(at 34.29 33.655 0)
+			(at 36.83 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,15 +9475,16 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 34.29 35.56 0)
+			(at 36.83 27.94 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 31.75 0)
+			(at 36.83 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9507,7 +9493,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 31.75 0)
+			(at 36.83 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9516,7 +9502,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 34.29 31.75 0)
+			(at 36.83 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10025,71 +10011,6 @@
 			(project "2tonewatch"
 				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/d7e41c0d-036e-4359-ac6b-2548c136f4e0"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 101.6 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f56abc6a-8e7b-4a2f-afaa-c05affef92ed")
-		(property "Reference" "#FLG03"
-			(at 101.6 65.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 101.6 63.5 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 101.6 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "975882ad-bddc-4e8a-8d54-bdc5575704fd")
-		)
-		(instances
-			(project "2tonewatch"
-				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/d7e41c0d-036e-4359-ac6b-2548c136f4e0"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)

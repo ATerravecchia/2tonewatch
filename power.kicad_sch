@@ -2758,50 +2758,50 @@
 	)
 	(text "Fuel Gauge IC"
 		(exclude_from_sim no)
-		(at 216.662 98.806 0)
+		(at 215.9 96.012 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.032 2.032)
 			)
 		)
 		(uuid "22228b32-3354-4f90-8d65-56279bb5f02c")
-	)
-	(text "Re-check resistor values. Might need to change to 200mA charge values for 1C. \n\nERC on PG & CHG"
-		(exclude_from_sim no)
-		(at 123.698 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2b03be91-4131-423e-873e-b2fedb1409f9")
 	)
 	(text "Charging IC"
 		(exclude_from_sim no)
 		(at 114.554 43.688 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.032 2.032)
 			)
 		)
 		(uuid "53e08694-5017-4be0-99aa-216e11cb4805")
+	)
+	(text "Ground Test Point"
+		(exclude_from_sim no)
+		(at 136.398 157.988 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "71cd01ff-4d06-4686-8c27-cdb524e30273")
 	)
 	(text "USB-C w/ ESD Protection\n+5V VBUS, 500 mA "
 		(exclude_from_sim no)
 		(at 36.576 85.852 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.032 2.032)
 			)
 		)
 		(uuid "84230aff-1efb-4cb6-bc7e-1c685f6066de")
 	)
-	(text "Battery Connector for 3.7V 200mAh Battery w/ in-built PCM"
+	(text "Battery Connector for 3.7V 200mAh Battery\nw/ in-built PCM"
 		(exclude_from_sim no)
-		(at 160.02 27.686 0)
+		(at 159.766 23.876 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.032 2.032)
 			)
 		)
 		(uuid "b3c33239-bfc6-472c-bd52-7034c1fe0236")
@@ -2811,7 +2811,7 @@
 		(at 225.044 45.72 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.032 2.032)
 			)
 		)
 		(uuid "fdaab2f0-ab6d-422e-a5ab-db371254e1a7")
@@ -3620,6 +3620,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 168.91) (xy 137.16 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89a126d-40e7-4599-b81a-8592f906896d")
+	)
+	(wire
+		(pts
 			(xy 179.07 124.46) (xy 179.07 130.81)
 		)
 		(stroke
@@ -4316,7 +4326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Molex_105450-0101"
 			(at 39.37 114.3 0)
 			(effects
 				(font
@@ -4335,6 +4345,24 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 35.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1054500101"
+			(at 35.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/molex/1054500101/5843890"
 			(at 35.56 114.3 0)
 			(effects
 				(font
@@ -4885,6 +4913,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 137.16 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "945ae881-570f-46ca-8436-c477f8e10d49")
+		(property "Reference" "TP4"
+			(at 137.414 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 136.652 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 142.24 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 137.16 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0761b86-b917-486a-a5b1-14405dc491ca")
+		)
+		(instances
+			(project "2tonewatch"
+				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/50aa898a-4cd9-4f6c-a569-964480767df5"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
 		(at 73.66 116.84 0)
 		(unit 1)
@@ -4994,7 +5087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 261.62 46.99 0)
 			(effects
 				(font
@@ -5195,7 +5288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LibraryFootprints:SON50P200X200X80-9N"
+		(property "Footprint" "Package_DFN_QFN:TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm"
 			(at 215.9 121.92 0)
 			(effects
 				(font
@@ -5768,6 +5861,7 @@
 				(font
 					(size 1.016 1.016)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -6004,6 +6098,72 @@
 			(project "2tonewatch"
 				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/50aa898a-4cd9-4f6c-a569-964480767df5"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1e2d8c8-8570-4f1b-8b65-4cf696b6039a")
+		(property "Reference" "#PWR08"
+			(at 137.16 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16ae3c93-1d3d-4e05-987e-10b4af28f611")
+		)
+		(instances
+			(project "2tonewatch"
+				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/50aa898a-4cd9-4f6c-a569-964480767df5"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)

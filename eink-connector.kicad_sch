@@ -1888,6 +1888,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Connector for GDEM0122T61 1.22 inch E-Ink display"
+		(exclude_from_sim no)
+		(at 204.47 51.816 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "946a7cbb-00ff-49a1-b60e-55c598cb7673")
+	)
 	(junction
 		(at 168.91 104.14)
 		(diameter 0)
