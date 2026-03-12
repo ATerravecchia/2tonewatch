@@ -2778,7 +2778,7 @@
 	)
 	(text "Ground Test Point"
 		(exclude_from_sim no)
-		(at 136.398 157.988 0)
+		(at 264.668 69.088 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -3620,7 +3620,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 168.91) (xy 137.16 171.45)
+			(xy 265.43 80.01) (xy 265.43 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4914,7 +4914,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 137.16 168.91 0)
+		(at 265.43 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4922,7 +4922,7 @@
 		(dnp no)
 		(uuid "945ae881-570f-46ca-8436-c477f8e10d49")
 		(property "Reference" "TP4"
-			(at 137.414 162.814 0)
+			(at 265.684 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4930,7 +4930,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 136.652 166.878 90)
+			(at 264.922 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,7 +4939,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 142.24 168.91 0)
+			(at 270.51 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4948,7 +4948,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 168.91 0)
+			(at 270.51 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,7 +4957,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 137.16 168.91 0)
+			(at 265.43 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6105,7 +6105,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 171.45 0)
+		(at 265.43 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6114,7 +6114,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1e2d8c8-8570-4f1b-8b65-4cf696b6039a")
 		(property "Reference" "#PWR08"
-			(at 137.16 177.8 0)
+			(at 265.43 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6123,7 +6123,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 176.53 0)
+			(at 265.43 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,7 +6131,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 171.45 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6140,7 +6140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 171.45 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6149,7 +6149,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 171.45 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

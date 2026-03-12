@@ -3155,7 +3155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor, small symbol, 0603/0805; X5R/X7R;Voltage Rating:≥25V"
 			(at 110.49 82.55 0)
 			(effects
 				(font
@@ -3289,7 +3289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor, small symbol, 0603/0805; X5R/X7R;Voltage Rating:≥25V"
 			(at 185.42 121.92 0)
 			(effects
 				(font
@@ -3491,7 +3491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor, small symbol, 0603/0805; X5R/X7R;Voltage Rating:≥25V"
 			(at 185.42 116.84 0)
 			(effects
 				(font
@@ -3559,7 +3559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor, small symbol, 0603/0805; X5R/X7R;Voltage Rating:≥25V"
 			(at 185.42 106.68 0)
 			(effects
 				(font
@@ -3627,7 +3627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor, small symbol, 0603/0805; X5R/X7R;Voltage Rating:≥25V"
 			(at 189.23 73.66 0)
 			(effects
 				(font
@@ -3695,7 +3695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor, small symbol, , 0603/0805; X5R/X7R;Voltage Rating:≥25V"
 			(at 81.28 101.6 0)
 			(effects
 				(font
@@ -3829,7 +3829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor, small symbol, 0603/0805; X5R/X7R;Voltage Rating:≥25V"
 			(at 176.53 119.38 0)
 			(effects
 				(font
@@ -3897,7 +3897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor, small symbol, 0603/0805; X5R/X7R;Voltage Rating:≥25V"
 			(at 185.42 101.6 0)
 			(effects
 				(font
@@ -4015,7 +4015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 108.712 121.92 90)
 			(effects
 				(font
@@ -4033,7 +4033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0603/0805;1% variation,≥0.05W"
 			(at 110.49 121.92 0)
 			(effects
 				(font
@@ -4302,7 +4302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor, small symbol, 0603/0805; X5R/X7R;Voltage Rating:≥25V"
 			(at 185.42 111.76 0)
 			(effects
 				(font
@@ -4370,7 +4370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor, small symbol, 0603/0805; X5R/X7R;Voltage Rating:≥25V"
 			(at 132.08 101.6 0)
 			(effects
 				(font
@@ -4565,7 +4565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 98.552 121.92 90)
 			(effects
 				(font
@@ -4583,7 +4583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0603/0805;1% variation,≥0.05W"
 			(at 100.33 121.92 0)
 			(effects
 				(font
