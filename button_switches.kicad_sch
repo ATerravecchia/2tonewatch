@@ -672,7 +672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P"
 			(at 124.46 58.42 0)
 			(effects
 				(font
@@ -691,6 +691,60 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B3U-3000P"
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 124.46 63.5 0)
 			(effects
 				(font
@@ -723,7 +777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "181be117-85f4-42e3-b4f3-d823e167260e")
-		(property "Reference" "R15"
+		(property "Reference" "R13"
 			(at 136.906 86.614 90)
 			(effects
 				(font
@@ -741,7 +795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 138.43 87.122 90)
 			(effects
 				(font
@@ -768,6 +822,51 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 138.43 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 138.43 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 138.43 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 138.43 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 138.43 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c8903de-0766-4c52-9da8-0ef485b4207d")
 		)
@@ -777,141 +876,7 @@
 		(instances
 			(project "2tonewatch"
 				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/4af52688-bac3-4b0c-b181-6834dd06dad9"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 124.46 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "531151ae-2b39-49bc-8c1b-7df18c9358bc")
-		(property "Reference" "SW2"
-			(at 124.46 78.232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 124.46 71.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 124.46 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "633b003b-f6f3-4685-a99a-63b040633cb8")
-		)
-		(pin "1"
-			(uuid "3ed39eab-e473-4782-a4d5-4e9585ec07cf")
-		)
-		(instances
-			(project "2tonewatch"
-				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/4af52688-bac3-4b0c-b181-6834dd06dad9"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 124.46 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e1e4ac9-927d-47db-a3e0-fd92d092359c")
-		(property "Reference" "SW4"
-			(at 124.46 103.632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 124.46 97.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 124.46 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "89600d00-7b59-44f0-aa35-b7872d890dd1")
-		)
-		(pin "1"
-			(uuid "c4ec12bc-44ed-403b-96a9-3e12742b16ee")
-		)
-		(instances
-			(project "2tonewatch"
-				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/4af52688-bac3-4b0c-b181-6834dd06dad9"
-					(reference "SW4")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -925,7 +890,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a80e3b5b-da50-470c-8830-d38b0782e740")
+		(uuid "933f8c40-0aed-454d-b10e-30dba2487405")
 		(property "Reference" "SW3"
 			(at 124.46 90.932 0)
 			(effects
@@ -942,7 +907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P"
 			(at 124.46 83.82 0)
 			(effects
 				(font
@@ -969,11 +934,65 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "B3U-3000P"
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "ff1ae0d7-9db7-4d53-8bff-8e4a10c17939")
+			(uuid "1cfbeb3d-453a-47bf-a275-257029b34d3c")
 		)
 		(pin "1"
-			(uuid "093d1162-a8d4-44e2-b067-f2d5e1f3e2a7")
+			(uuid "eef62259-d109-4eb1-a67f-81a720c9860f")
 		)
 		(instances
 			(project "2tonewatch"
@@ -993,7 +1012,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba7841a3-a442-4afe-b1f9-43fe750a1ae0")
-		(property "Reference" "R16"
+		(property "Reference" "R14"
 			(at 136.906 99.314 90)
 			(effects
 				(font
@@ -1011,7 +1030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 138.43 99.822 90)
 			(effects
 				(font
@@ -1038,6 +1057,51 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 138.43 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 138.43 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 138.43 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 138.43 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 138.43 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87963bb8-2d60-4e72-a3cd-86dd7f577225")
 		)
@@ -1047,7 +1111,7 @@
 		(instances
 			(project "2tonewatch"
 				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/4af52688-bac3-4b0c-b181-6834dd06dad9"
-					(reference "R16")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1062,7 +1126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb0d26e8-21ce-45de-bf38-646e8cb613b3")
-		(property "Reference" "R14"
+		(property "Reference" "R12"
 			(at 136.906 73.914 90)
 			(effects
 				(font
@@ -1080,7 +1144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 138.43 74.422 90)
 			(effects
 				(font
@@ -1107,6 +1171,51 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 138.43 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 138.43 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 138.43 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 138.43 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 138.43 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9936ae1-e6d7-4fca-be91-a16207a70a58")
 		)
@@ -1116,7 +1225,7 @@
 		(instances
 			(project "2tonewatch"
 				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/4af52688-bac3-4b0c-b181-6834dd06dad9"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -1132,7 +1241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da00b21d-6906-4535-8895-e3cba6f6167e")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR039"
 			(at 106.68 113.03 0)
 			(effects
 				(font
@@ -1182,7 +1291,249 @@
 		(instances
 			(project "2tonewatch"
 				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/4af52688-bac3-4b0c-b181-6834dd06dad9"
-					(reference "#PWR041")
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 124.46 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df3baccf-c2f3-4096-b44a-56d42202cc0f")
+		(property "Reference" "SW2"
+			(at 124.46 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 124.46 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P"
+			(at 124.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B3U-3000P"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3a5f38c-5c5a-46d9-962c-b003772ffcfa")
+		)
+		(pin "1"
+			(uuid "0e7b0156-33bb-4ac3-aa8b-279d46a5ad01")
+		)
+		(instances
+			(project "2tonewatch"
+				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/4af52688-bac3-4b0c-b181-6834dd06dad9"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 124.46 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e05ad150-45af-4921-af32-6e7a6793f43a")
+		(property "Reference" "SW4"
+			(at 124.46 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 124.46 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P"
+			(at 124.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B3U-3000P"
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ad062ca-d9e5-4194-b5ef-fc1ed5a7bc84")
+		)
+		(pin "1"
+			(uuid "bab3cc3a-0f70-4361-975e-cbfb73695eb6")
+		)
+		(instances
+			(project "2tonewatch"
+				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/4af52688-bac3-4b0c-b181-6834dd06dad9"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -1197,7 +1548,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f86000f8-d72d-4f37-a3dd-27142df5f010")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 136.906 61.214 90)
 			(effects
 				(font
@@ -1215,7 +1566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 138.43 61.722 90)
 			(effects
 				(font
@@ -1242,6 +1593,51 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 138.43 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 138.43 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 138.43 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 138.43 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 138.43 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93d5f98c-5b0f-4fc3-93dd-c0b2fa161d49")
 		)
@@ -1251,7 +1647,7 @@
 		(instances
 			(project "2tonewatch"
 				(path "/29eb74dc-e91c-4cc5-ad9f-7f8caf36d690/4af52688-bac3-4b0c-b181-6834dd06dad9"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
