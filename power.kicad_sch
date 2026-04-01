@@ -4219,7 +4219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LibraryFootprints:MLPF-WB55-01E3"
+		(property "Footprint" "Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.83x1.89mm"
 			(at 114.3 63.5 0)
 			(effects
 				(font
